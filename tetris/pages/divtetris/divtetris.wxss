@@ -1,0 +1,81 @@
+/* pages/teris/teris.wxss */
+
+    #tetris {
+        width: 310px;
+    
+        padding: 5px;
+    }
+    #main{
+      border:1px solid black;
+      padding-left:1px;
+      padding-top:1px;
+      width:201px;
+      height:441px;
+    }
+    .line{
+      width:200px;
+      height:18px;
+    }
+    .type0{
+      background-color:white;
+    }
+    .typeT,.type1{
+      background-color:yellow;
+    }
+    .typeL,.type2{
+      background-color:green;
+    }
+    .typeS,.type3{
+      background-color:pink;
+    }
+    .typeZ,.type4{
+      background-color:gray;
+    }
+    .typeJ,.type5{
+      background-color:blue;
+    }
+    .typeO,.type6{
+      background-color:red;
+    }
+    .typeI,.type7{
+      background-color:orange;
+    }
+    
+    .block{
+      float:left;
+      border:1px solid white;
+      width:18px;
+      height:18px;
+    }
+    .piece {
+        border: 1px solid white;
+        position: absolute;
+    }
+    .square {
+        position: absolute;
+        width: 19px;
+        height: 19px;
+        border: 1px solid white;
+        }
+    #next_shape {
+        position: relative;
+        background-color: #000;
+        border: 1px solid white;
+        width: 80px;
+        height: 80px;
+      }
+    .settinglabel{
+      display:block;
+    }
+    #info {
+        background-color: #000;
+        color: #fff;
+        float: right;
+        width: 80px;
+        height: 420px;
+        padding: 10px;
+      }
+      .button{
+        width:60px;
+        float:left;
+      }

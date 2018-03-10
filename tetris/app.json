@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/teris/teris",
+    "pages/divtetris/divtetris"
+  ],
+  "window": {
+    "backgroundTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信接口功能演示",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,15 @@
+<!--pages/teris/teris.wxml-->
+<view id="tetris">
+  <view id="info">
+    <wxs src='./engine.wxs' module='info'/>
+    <canvas style="border: 1px solid white;width: 84px;height: 84px;" canvas-id="nextShape"></canvas>
+    <text class='settinglabel' id="level">Level: {{level}}</text>
+    <text class='settinglabel' id="score">Score: {{score}}</text>
+    <text class='settinglabel' id="time">Time: {{time}}</text>
+  </view>
+  <canvas style="width: 200px; height: 440px;border:1px solid black;" canvas-id="canvas"></canvas>
+  <button class='button' bind:tap='onLeft'>左</button>
+  <button class='button' bind:tap='onDown'>下</button>
+  <button class='button' bind:tap='onRight'>右</button>
+  <button class='button' bind:tap='onChange'>变</button>
+</view>
